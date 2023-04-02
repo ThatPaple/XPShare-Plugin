@@ -1,0 +1,11 @@
+name: XPShare
+version: '${project.version}'
+main: me.thatpaple.xpshare.XPShare
+description: XPShare allows players to share their XP with other players!
+author: thatpaple
+website: https://github.com/thatpaple/
+api-version: 1.19
+commands:
+  share:
+    description: Send your XP to a specific player
+    usage: /xpshare <user> <amount>
